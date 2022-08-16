@@ -7,3 +7,13 @@ Content-Type: application/json
     "url": "https://www.linkedin.com/feed/update/urn:li:share:6965333667367817216?utm_source=linkedin_share&utm_medium=member_desktop_share&utm_content=post"
   }
 }
+
+### Testing production
+POST https://api.short-url.anthonylzq.dev/short
+Content-Type: application/json
+
+{
+  "args": {
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:6965333667367817216?utm_source=linkedin_share&utm_medium=member_desktop_share&utm_content=post"
+  }
+}

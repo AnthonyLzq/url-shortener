@@ -7,7 +7,7 @@ import { validatorCompiler } from './utils'
 
 const Url = Router()
 
-Url.route('/short/:id').get(async (req, res, next) => {
+Url.route('/:id').get(async (req, res, next) => {
   const {
     params: { id }
   } = req
@@ -22,7 +22,7 @@ Url.route('/short/:id').get(async (req, res, next) => {
   }
 })
 
-Url.route('/short').post(
+Url.route('/').post(
   validatorCompiler(storeUrlDto, 'body'),
   async (req: CustomRequest, res, next) => {
     const {
