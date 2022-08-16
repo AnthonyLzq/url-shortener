@@ -14,8 +14,12 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1996/api",
+      "url": "http://localhost:1996",
       "description": "url-shortener local API"
+    },
+    {
+      "url": "https://api.short-url.anthonylzq.dev",
+      "description": "url-shortener production API"
     }
   ],
   "tags": [

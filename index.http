@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ### Testing production
-POST https://api.short-url.anthonylzq.dev/short
+POST https://api.short-url.anthonylzq.dev/
 Content-Type: application/json
 
 {
